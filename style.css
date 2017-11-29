@@ -1,0 +1,214 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  font-family: 'Verdana', 'Geneva', 'sans-serif'
+  
+}
+
+body{
+  background-color:  #181818;
+}
+
+
+.cover {
+/*  text-align: center;*/
+/*  transform: translate(0.5%,0%);*/
+}
+
+.content1 {
+  width: 55%;
+  margin: auto;
+  padding-top: 150px;
+/*  transform: translate(20%,50%);*/
+}
+
+.headline, .subheadline{
+  margin: 10px 0px;
+/*  margin-left: 30px;*/
+}
+
+.headline{
+  color: #C1AB42;
+}
+
+.subheadline{
+  font-size: 20px;
+  color: #c8c8c8;
+}
+
+p.project-intro1, .author{
+/*  margin-left: 30px;*/
+  width: 700px;
+  color: #696773;
+  font-size: 14px;
+
+}
+
+.author{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subtitle{
+  font-size: 20px;
+  color: #C1AB42;
+  width: 200px;
+  padding-top: 10px;
+}
+
+
+.navigation {
+  width: 100%;
+  color: #c8c8c8;
+  padding-top: 100px;
+/*  transform: translate(-20%,500%);*/
+}
+
+.nav-text {
+  text-align: center;
+  font-size: 14px;
+}
+
+.nav-text:hover {
+  cursor: pointer;
+}
+
+
+.timeplot-intro{
+  font-size: 14px;
+  color: #c8c8c8;
+  width: 700px;
+}
+
+/*Timeplot*/
+.subtitle, .timeplot-intro{
+  padding-bottom: 5px;
+  padding-left: 35px;
+  min-width: 600px;
+}
+
+.subtitle{
+  padding-top: 10px;
+}
+
+.timeplot-intro{ 
+  padding-top: 5px;
+
+}
+
+.timeplot{
+  width: 100%;
+  min-width: 800px;
+  padding-left: 35px;
+/*  transform: translate(1.5%,0%);*/
+}
+
+.exo-time{
+  display: inline-block;
+/*  transform: translate(30%,0%);*/
+}
+
+.exo-time-each{
+/*  transform: translate(0%,30%);*/
+   text-align: center;
+   opacity: 0.35;
+}
+
+.exo-year, .timeline-label{
+  color: #696773;
+}
+
+.exo-year {
+  font-size: 11px;
+}
+
+.timeline-label{
+  width: 200px;
+  font-size: 13px;
+}
+
+.timeline{
+  height: 200px;
+  width: 50%;
+  transform: translate(0%,30%);
+}
+
+.timeline-each{
+  stroke-width: 6px;
+  stroke: #009FB7;
+  opacity: 0.7;
+}
+
+#timeline-title{
+  border-bottom: #696773 1px solid;
+}
+
+.re-line{
+  stroke: #696773;
+  stroke-width: 1px;
+  opacity: 0.8;
+}
+
+#re-exoneration{
+  stroke-width: 1.5px;
+  stroke: #009FB7;
+}
+
+.notes, .age-notes{
+  font-size: 13px;
+  fill: #C8C8C8;
+}
+
+#note-exoneration, #age-note-exoneration{
+  fill: #009FB7;
+}
+
+.axis path{
+  stroke: #696773;
+  opacity: 0.5;
+}
+
+.tick line{
+  stroke-width: 0px;
+}
+
+.tick text{
+  fill: #696773;
+}
+
+.graphic-title{
+  width: 250px;
+  color: #C1AB42;
+  padding-bottom: 5px;
+  margin: 5px 0px;
+}
+
+.info {
+  margin-left: 30px;
+  transform: translate(0%,10%);
+  width: 30%;
+}
+
+.name {
+  color: #C1AB42;
+}
+
+.tag{
+  font-size: 14px;
+  color: #696773;
+}
+
+.des{
+  width: 65%;
+  min-width: 200px;
+  word-wrap: break-word;
+  font-size: 14px;
+  color: #C8C8C8;
+}
+
+
+
+
+
+
