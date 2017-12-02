@@ -253,7 +253,7 @@ function dataloaded(err, data) {
        .html(
         'The crime happened in '+ d.occurred + 
         ', and was wrongly convicted in '+ d.convicted + '. '+
-        d.firstName + ' had been waiting for '+ du2 + 
+        d.firstName + ' has been waiting for '+ du2 + 
         ' years for '+ gender +' innocence.')
   }
   
