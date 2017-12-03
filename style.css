@@ -23,10 +23,6 @@ body{
 /*  transform: translate(20%,50%);*/
 }
 
-.headline, .subheadline{
-  margin: 10px 0px;
-/*  margin-left: 30px;*/
-}
 
 .headline{
   color: #C1AB42;
@@ -34,7 +30,7 @@ body{
 
 .subheadline{
   font-size: 20px;
-  color: #c8c8c8;
+  color: #C1AB42;
 }
 
 p.project-intro1, .author{

@@ -186,7 +186,7 @@ function dataloaded(err, data) {
          .attr('id','age-note-exoneration')
          .attr('x',scaleX(d.exonerated))
          .attr('y',y_base+40)
-         .text((d.age+ (d.exonerated-d.convicted))+' years old')
+         .text((d.age+ (d.exonerated-d.occurred))+' years old')
 
         //reference line1
         timeline.append('line')
