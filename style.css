@@ -46,6 +46,10 @@ p.project-intro1, .author{
   margin-bottom: 20px;
 }
 
+a {
+  color: #4B0082;
+}
+
 .subtitle{
   font-size: 20px;
   color: #C1AB42;
